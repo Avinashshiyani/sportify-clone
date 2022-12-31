@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify_clone</title>
+    <link rel="stylesheet" href="./components/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- starting of the sportify clone  -->
+    <div class="main-class flex">
+        <!-- 2 main divs -->
+        <div class="grid bg-black text-white w-2/5 items-start ">
+            <!-- sportify grid system started -->
+
+            <div class="grid bg-black ml-7 mt-8">
+
+                <span class="text-3xl font-bold cursor-pointer">
+                    <i class="fa-brands fa-spotify pr-2"></i>Spotify
+                </span>
+
+                    <div class="space-y-5 grid mt-16 font-bold text-sm">
+                        <span class="cursor-pointer"><i class="fa-solid fa-house fa-lg pr-2"></i>Home</span>
+                        <span class="text-slate-300 hover:text-white cursor-pointer"><i class="fa-solid fa-magnifying-glass fa-lg pr-3"></i>Search</span>
+                        <span class="text-slate-300 hover:text-white cursor-pointer"><i class="fa-solid fa-swatchbook fa-lg pr-3"></i>Your Library</span>
+                    </div>
+
+                    <div class="space-y-6 grid mt-16 font-bold text-sm text-slate-300">
+                        <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-square-plus fa-lg pr-3"></i>Create Playlist</span>
+                        <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-heart fa-lg pr-3"></i>Liked Songs</span>
+                    </div>
+
+                    <div class="space-y-5 grid mt-48 text-sm text-slate-300 ">
+                        <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-cookie-bite pr-3"></i>Cookies</span>
+                        <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-key pr-3"></i>Privacy</span>
+                    </div>
+              
+            </div>
+
+        </div>
+        <div class="w-full">
+            <!-- rest navbar started  -->
+                <div class="h-16 flex items-center justify-between navbar ">
+
+                    <div class="space-x-5 ml-8 flex bg-black-100 ">
+                        <span class="text-slate-300 rounded-full bg-black px-2 py-1 cursor-pointer"><i class="fa-solid fa-less-than    fa-lg"></i></span>
+                        <span class="text-slate-300 rounded-full bg-black px-2 py-1 cursor-pointer"><i class="fa-solid fa-greater-than fa-lg"></i></span>
+                    </div>
+
+                    <div class="text-slate-300 space-x-4 font-bold mr-5">
+                        <span class="cursor-pointer">Premium</span>
+                        <span class="cursor-pointer">Support</span>
+                        <span class="cursor-pointer">Download</span>
+                        <span class="text-white px-5">|</span>
+                        <button>Sign up</button>
+                        <button class="bg-white text-black rounded-3xl px-7 py-3">Log in</button>
+                    </div>
+
+                </div>
+
+                <!-- songs intro -->
+                <div class="main-container ">
+
+                        <!-- show all -->
+                        <div class="flex justify-between text-white px-5 font-bold items-center p-4">
+                            <span class=" text-2xl cursor-pointer">Focus</span>
+                            <span class="text-md text-slate-300 cursor-pointer hover:text-white">SHOW ALL</span>
+                        </div>
+
+                        <!-- all songs roll out -->
+                        <div class="song-container ">
+                            <!-- song layout container -->
+
+
+                            <div class="flex flex px-2 justify-around">
+
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                        <div class="h-44 w-48 grid text-start space-y-1">
+                                            <img src="./components/images/1.jfif" alt="image" class="rounded-lg">
+                                            <span class="text-white pt-2 font-bold">Peaceful Piano</span>
+                                            <span class="text-slate-300 text-sm">Relax and indulge with beautiful piano piece</span>
+                                        </div>
+                                </div>
+                                
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/2.jfif" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Deep Focus</span>
+                                        <span class="text-slate-300 text-sm">Keep calm and focus with ambient and post-rock .</span>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div>
+    
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/3.jfif" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Instrumental Study</span>
+                                        <span class="text-slate-300 text-sm">Focus with soft study music in the background.</span>
+                                    </div>
+                                </div>
+    
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/4.jfif" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Chill Lofi Study</span>
+                                        <span class="text-slate-300 text-sm">The perfect study beats. Find your focus.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- second sportyfy playlist -->
+                            <div class="flex justify-between text-white px-5 font-bold items-center p-4">
+                                <span class=" text-2xl cursor-pointer">Spotify Playlist</span>
+                                <span class="text-md text-slate-300 hover:text-white cursor-pointer">SHOW ALL</span>
+                            </div>
+
+                            
+
+
+                            <div class="flex flex px-2 justify-around">
+
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                        <div class="h-44 w-48 grid text-start space-y-1">
+                                            <img src="./components/images/5.jpg" alt="image" class="rounded-lg">
+                                            <span class="text-white pt-2 font-bold">Peaceful Piano</span>
+                                            <span class="text-slate-300 text-sm">Relax and indulge with beautiful piano piece</span>
+                                        </div>
+                                </div>
+                                
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/6.jpg" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Deep Focus</span>
+                                        <span class="text-slate-300 text-sm">Keep calm and focus with ambient and post-rock .</span>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div>
+    
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/7.jpg" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Instrumental Study</span>
+                                        <span class="text-slate-300 text-sm">Focus with soft study music in the background.</span>
+                                    </div>
+                                </div>
+    
+                                <div class="h-72 w-52  song-lay rounded-2xl flex justify-center p-3 cursor-pointer opacity-90 hover:opacity-100">
+                                    <div class="h-44 w-48 grid text-start space-y-1">
+                                        <img src="./components/images/8.jpg" alt="image" class="rounded-lg">
+                                        <span class="text-white pt-2 font-bold">Chill Lofi Study</span>
+                                        <span class="text-slate-300 text-sm">The perfect study beats. Find your focus.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                <div><br><br><br><br><br><br><br><br><br><br></div>
+                        </div>
+
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>
